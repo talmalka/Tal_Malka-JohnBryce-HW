@@ -1,0 +1,77 @@
+body.lightblue{
+    background: rgb(36,0,24);
+    background: linear-gradient(90deg, rgba(36,0,24,1) 1%, rgba(9,90,121,1) 50%, rgba(0,207,255,1) 100%);
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+body.orange{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(239,80,45,1) 72%, rgba(244,151,28,1) 100%);
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+body.pink{
+    background: rgb(36,0,24);
+    background: linear-gradient(90deg, rgba(36,0,24,1) 1%, rgba(121,9,62,1) 50%, rgba(255,0,130,1) 100%);
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+body.silver{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(180,180,180,1) 75%, rgba(255,255,255,1) 100%); 
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+body.yellow{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(239,255,126,1) 60%, rgba(255,255,255,1) 100%);
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+.h1-title{
+    font-size:24px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+}
+.instructions{
+    font-size:21px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+}
+.box{            
+    display:flex;
+    justify-content:center;
+}
+.link{
+    margin: 20px;            
+    width: 200px;
+    border-style: outset;
+    padding: 9px;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 8px;
+}
+a{
+    color: black;
+}
+#lightblue-page-link{
+    background: rgb(36,0,24);
+    background: linear-gradient(90deg, rgba(36,0,24,1) 1%, rgba(9,90,121,1) 50%, rgba(0,207,255,1) 100%);
+}
+#orange-page-link{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(239,80,45,1) 72%, rgba(244,151,28,1) 100%);
+}
+#pink-page-link{
+    background: rgb(36,0,24);
+    background: linear-gradient(90deg, rgba(36,0,24,1) 1%, rgba(121,9,62,1) 50%, rgba(255,0,130,1) 100%);
+}
+#silver-page-link{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(180,180,180,1) 75%, rgba(255,255,255,1) 100%); 
+}
+#yellow-page-link{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(239,255,126,1) 60%, rgba(255,255,255,1) 100%);
+}
+        

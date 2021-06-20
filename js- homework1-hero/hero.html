@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tal's fan page</title>
+    <link rel="icon" href="https://picsum.photos/50/50">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background: rgb(36,0,24);
+            background: linear-gradient(90deg, rgba(36,0,24,1) 1%, rgba(9,90,121,1) 50%, rgba(0,207,255,1) 100%);
+            font-family: 'Mate SC', serif;
+            text-align: center;
+        }
+        .tal{
+            border: 1px solid;
+            border-color: black;
+            border-width: 0.1em;
+            border-radius: 8px;
+        }
+        ol.a {
+            list-style-type: decimal;
+        }
+        .list {
+            display:flex;
+            justify-content:center;
+        }
+        table{
+            background: #CFCFCF;
+            background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            border-bottom: 3px solid #000000;
+        }
+        table.minimalistBlack {
+        border: 3px solid #000000;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+        }
+        table.minimalistBlack td, table.minimalistBlack th {
+        border: 1px solid #000000;
+        padding: 5px 4px;
+        }
+        table.minimalistBlack tbody td {
+        font-size: 13px;
+        }
+        table.minimalistBlack thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+        }
+        table.minimalistBlack tfoot td {
+        font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is H1</h1>
+    <h2>This is H2</h2>
+    <h3>This is H3</h3>
+    <h4>This is H4</h4>
+    <h5>This is H5</h5>
+    <h6>This is H6</h6>
+    <hr></hr>
+    <span class="tal">This is a span</span>
+    <div class="tal">This is div</div>
+    <p class="tal">This is a paragraph</p>
+    <span class="tal">This is another span</span>
+    <hr></hr>
+    <br></br>
+    <hr></hr>
+    <div class="list">
+        <ol class="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+    </div>
+    <div class="list">
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </div>
+    <img src="https://picsum.photos/150/150">
+    <br></br>
+    <hr></hr>
+    <table class="minimalistBlack">
+        <thead>
+            <tr>
+                <th>head1</th>
+                <th>head2</th>
+                <th>head3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cell1_1</td>
+                <td>cell2_1</td>
+                <td>cell3_1</td>
+            </tr>
+            <tr>
+                <td>cell1_2</td>
+                <td>cell2_2</td>
+                <td>cell3_2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
