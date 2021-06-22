@@ -1,5 +1,5 @@
-var a='red';
-var b='green';
+let a='red';
+let b='green';
 color=a;
 
 function reStyle(){

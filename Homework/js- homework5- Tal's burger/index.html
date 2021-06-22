@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tal's Burger</title>
+        <link rel="icon" type="image/x-icon" href="burger.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="site.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="header">
+                <img rel="icon" type="image/x-icon" src="burger.png" width="40" height="40">
+                <h1>Tal's Burger</h1>
+            </div>
+            <h2>Make your own burger</h2>
+            <br>
+            <div>The basic burger price is 40 ils</div>
+            <div>please fill free to add any of the below additions to your burger</div>
+            <br>
+
+            <div class="options">
+
+                <div class="centeredOption">
+                    <div id="option">
+                        <button onclick="minusCheese()">-</button>
+                        <optionCheese> cheese</optionCheese>
+                        <button onclick="plusCheese()">+</button>
+                        <span class="tooltipText">Price: 9 ils</span>
+                    </div>                    
+                </div>
+                
+                <div class="centeredOption">
+                    <div id="option">
+                        <button onclick="minusMeat()">-</button>
+                        <optionMeat> meat </optionMeat>
+                        <button onclick="plusMeat()">+</button>
+                        <span class="tooltipText">Price: 17 ils</span>
+                    </div>
+                </div>
+
+                <div class="centeredOption">
+                    <div id="option">
+                        <button onclick="minusTomato()">-</button>
+                        <optionTomato> tomato </optionTomato>
+                        <button onclick="plusTomato()">+</button>
+                        <span class="tooltipText">Price: 5 ils</span>
+                    </div>
+                </div>
+
+                <div class="centeredOption">
+                    <div id="option">
+                        <button onclick="minusLettuce()">-</button>
+                        <optionLettuce> lettuce </optionLettuce>
+                        <button onclick="plusLettuce()">+</button>
+                        <span class="tooltipText">Price: 4 ils</span>
+                    </div> 
+                </div>   
+                
+            </div>
+
+            <hr>
+            <h2> Your burger:</h2>
+            <span id="totalPrice"> Total Price:</span>
+            <span id="price">40</span>
+            <span>ils</span>
+
+            <br></br>
+
+            <div class="Burger">
+
+                <div class="bread">
+                    <div class="upperBread"></div>
+                </div>                
+
+                <div id="additions">
+
+                    <div class="cheeseAddition">
+                        <div id="cheeseDiv">
+                            
+                        </div>                        
+                    </div>   
+
+                    <div class="meatAddition">
+                        <div id="meatDiv">
+                            <div class="meat"></div>
+                        </div>                        
+                    </div>   
+
+                    <div class="tomatoAddition">
+                        <div id="tomatoDiv">
+                            
+                        </div>                        
+                    </div>   
+
+                    <div class="lettuceAddition">
+                        <div id="lettuceDiv">
+
+                        </div>                        
+                    </div>     
+
+                </div>    
+
+                <div class="bread">
+                    <div class="lowerBread"></div>
+                </div>                
+
+            </div>
+
+        </div>
+    </body>
+</html>

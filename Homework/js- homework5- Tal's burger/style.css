@@ -1,0 +1,155 @@
+
+body{
+    font-family: 'Mate SC', serif;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(239,255,126,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+h1, h2{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.0em;  
+    margin: 5px; 
+}
+
+hr{
+    margin: 10px;
+}
+
+.centeredOption {
+    display:flex;
+    justify-content:center; 
+}
+
+optionCheese, optionMeat, optionTomato, optionLettuce{
+    margin: 5px;
+    border-style: outset;
+    width: 30%;
+    padding: 1px;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(150,150,150,1) 50%, rgba(255,255,255,1) 100%); 
+}
+
+#option{
+    margin: 5px; 
+    width: 200px;
+    border-style: outset;
+    padding: 5px;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 8px;     
+    display:flex;
+    justify-content:center; 
+    position: relative;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(239,80,45,1) 72%, rgba(244,151,28,1) 100%);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#option .tooltipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    /* top: -5px; */
+    left: 102%;
+}
+
+
+#option:hover .tooltipText {
+    visibility: visible;
+}
+
+button{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(150,150,150,1) 50%, rgba(255,255,255,1) 100%); 
+    width:30px;
+    height:30px;
+    margin: 5px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgba(36,0,24,1) 1%, rgba(9,90,121,1) 50%, rgba(0,207,255,1) 100%);
+    color: white;
+    font-weight: bold;
+}
+
+.upperBread, .lowerBread{
+    margin: 2px;
+    border-style: outset;
+    width: 200px;    
+    border-color: black;
+    border-width: 0.1em;
+    background-color:rgb(214, 149, 52);  
+}
+
+.upperBread{
+    padding-left: 14px;
+    padding-right:14px;
+    padding-top:60px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.lowerBread{
+    padding: 14px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cheese, .meat, .tomato, .lettuce{
+    margin: 1px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-style: outset;
+    width: 200px;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 8px;
+}
+
+.cheese{
+    background-color:rgb(252, 237, 101);    
+    padding-top: 2px;
+    padding-bottom:1px;
+}
+
+.meat{
+    background-color: rgb(110, 47, 47);    
+    padding-top: 9px;
+    padding-bottom:9px;
+}
+
+.tomato{
+    background-color: rgb(250, 0, 0);    
+    padding-top: 3px;
+    padding-bottom:3px;
+}
+
+.lettuce{
+    background-color: rgb(39, 250, 39);    
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+
+.bread, .cheeseAddition, .meatAddition, .tomatoAddition, .lettuceAddition{
+    display:flex;
+    justify-content:center; 
+}
+
+#totalPrice{
+    text-decoration: underline;
+    text-decoration-thickness: 0.01em;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+}
