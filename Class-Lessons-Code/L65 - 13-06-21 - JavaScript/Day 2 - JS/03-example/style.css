@@ -1,0 +1,22 @@
+button{
+    background-color: salmon;
+    border-radius: 50px 50px 50px 50px;
+}
+
+p{
+    font-size: xx-large;
+    color:palegoldenrod
+}
+
+
+p:first-letter{
+    color: salmon;
+}
+
+.plus{
+    background-color: sienna;
+}
+
+.minus{
+    background-color: slateblue;
+}

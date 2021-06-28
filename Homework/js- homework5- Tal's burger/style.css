@@ -153,3 +153,15 @@ button:hover {
     display:flex;
     justify-content:center;
 }
+
+.meal{
+    display:flex;
+    justify-content:center;
+    position: relative;
+}
+
+.meal .cola{
+    position: absolute;
+    bottom: 0;
+    right: 34%;    
+}

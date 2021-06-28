@@ -1,0 +1,5 @@
+p{
+    color: saddlebrown;
+    /* Default is important */
+    background-color: pink !important;
+}
